@@ -73,7 +73,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Gitlearn5/Hello-Microverse.git
+Clone this repository to your desired folder: https://github.com/denigit5/Portfolio.git
 
 
 
