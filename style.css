@@ -5,14 +5,15 @@
   padding: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 420px) and (orientation: portrait), (max-height: 560px) {
   body {
-    background-color: #e8ebf2;
+    background-color: #f5f7fa;
   }
 
   .homepage {
     background-image: url(images/files/header\ background\ shape-desktop.jpg);
     border-bottom-left-radius: 10%;
+    width: 375px;
     padding: 0;
   }
 
@@ -164,6 +165,14 @@
     padding-left: 1rem;
   }
 
+  #grid-works {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+  }
+
   .container-1 {
     background: white;
     height: 552px;
@@ -218,6 +227,7 @@
     margin-left: 5%;
     margin-top: 4%;
     display: flex;
+    list-style: none;
     gap: 5px;
   }
 
@@ -232,10 +242,16 @@
     color: rgba(96, 112, 255, 1);
   }
 
+  .button1:hover {
+    background-color: rgb(123, 123, 235);
+    pointer-events: none;
+  }
+
   .button2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    list-style: none;
     padding: 4px 12px;
     width: 49px;
     height: 24px;
@@ -243,6 +259,11 @@
     border-radius: 8px;
     border: 0;
     color: rgba(96, 112, 255, 1);
+  }
+
+  .button2:hover {
+    background-color: rgb(149, 149, 248);
+    pointer-events: none;
   }
 
   .button3 {
@@ -256,6 +277,11 @@
     border-radius: 8px;
     border: 0;
     color: rgba(96, 112, 255, 1);
+  }
+
+  .button3:hover {
+    background-color: rgb(149, 149, 248);
+    pointer-events: none;
   }
 
   .see-project {
@@ -276,6 +302,11 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
+  }
+
+  .see-project:hover {
+    background-color: rgb(203, 203, 205);
+    pointer-events: none;
   }
 
   .container2 {
@@ -346,7 +377,7 @@
     position: absolute;
     width: 375px;
     height: 1263px;
-    margin-top: 25%;
+    margin-top: 20%;
   }
 
   .about-me {
@@ -431,6 +462,11 @@
     text-align: center;
   }
 
+  .see-project1:hover {
+    background-color: rgb(203, 203, 205);
+    pointer-events: none;
+  }
+
   .see-project2 {
     margin-left: 5%;
     margin-top: 7%;
@@ -455,6 +491,11 @@
     text-align: center;
   }
 
+  .see-project2:hover {
+    background-color: rgb(203, 203, 205);
+    pointer-events: none;
+  }
+
   .see-project3 {
     margin-left: 5%;
     margin-top: 7%;
@@ -477,6 +518,11 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
+  }
+
+  .see-project3:hover {
+    background-color: rgb(203, 203, 205);
+    pointer-events: none;
   }
 
   .works {
@@ -605,17 +651,22 @@
   }
 
   .form-button {
-    background: #fff;
+    background: #fcfbfe;
     border-radius: 8px;
     padding: 4%;
     width: 50%;
-    color: #6070ff;
+    color: #5660cd;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
     border: 1px;
+  }
+
+  .form-button:hover {
+    background-color: rgb(181, 181, 183);
+    pointer-events: none;
   }
 
   .bottom-divider {
