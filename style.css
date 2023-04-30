@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-@media (max-width: 420px) and (orientation: portrait), (max-height: 560px) {
+@media (max-width: 420px) {
   body {
     background-color: #f5f7fa;
   }
@@ -223,32 +223,30 @@
     color: rgba(52, 69, 99, 1);
   }
 
-  .button-list {
+  .technologies ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .technologies li {
     margin-left: 5%;
     margin-top: 4%;
     display: flex;
     list-style: none;
-    gap: 5px;
   }
 
   .button1 {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 4px 12px;
-    background: #ebebff;
+    background: #eeeef7;
     border-radius: 8px;
     border: 0;
     color: rgba(96, 112, 255, 1);
   }
 
-  .button1:hover {
-    background-color: rgb(123, 123, 235);
-    pointer-events: none;
-  }
-
   .button2 {
-    display: flex;
     flex-direction: row;
     align-items: center;
     list-style: none;
@@ -261,13 +259,7 @@
     color: rgba(96, 112, 255, 1);
   }
 
-  .button2:hover {
-    background-color: rgb(149, 149, 248);
-    pointer-events: none;
-  }
-
   .button3 {
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 4px 12px;
@@ -277,25 +269,20 @@
     border-radius: 8px;
     border: 0;
     color: rgba(96, 112, 255, 1);
-  }
-
-  .button3:hover {
-    background-color: rgb(149, 149, 248);
-    pointer-events: none;
+    cursor: pointer;
   }
 
   .see-project {
     margin-left: 5%;
     margin-top: 7%;
-    display: flex;
+    background-color: #fcfbfe;
     flex-direction: column;
     align-items: center;
     padding: 16px;
     gap: 12px;
-    background: white;
     border: 1px solid rgba(57, 109, 242, 1);
     border-radius: 16px;
-    color: rgba(57, 109, 242, 1);
+    color: rgb(86, 135, 235);
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -305,8 +292,9 @@
   }
 
   .see-project:hover {
-    background-color: rgb(203, 203, 205);
-    pointer-events: none;
+    background-color: #6f7cf4;
+    color: white;
+    transition: 0.7s;
   }
 
   .container2 {
@@ -438,7 +426,7 @@
     padding-top: 2rem;
   }
 
-  .see-project1 {
+  .tag1 {
     margin-left: 5%;
     margin-top: 7%;
     display: flex;
@@ -462,12 +450,12 @@
     text-align: center;
   }
 
-  .see-project1:hover {
+  .tag1:hover {
     background-color: rgb(203, 203, 205);
     pointer-events: none;
   }
 
-  .see-project2 {
+  .tag2 {
     margin-left: 5%;
     margin-top: 7%;
     display: flex;
@@ -491,12 +479,12 @@
     text-align: center;
   }
 
-  .see-project2:hover {
+  .tag2:hover {
     background-color: rgb(203, 203, 205);
     pointer-events: none;
   }
 
-  .see-project3 {
+  .tag3 {
     margin-left: 5%;
     margin-top: 7%;
     display: flex;
@@ -520,7 +508,7 @@
     text-align: center;
   }
 
-  .see-project3:hover {
+  .tag3:hover {
     background-color: rgb(203, 203, 205);
     pointer-events: none;
   }
