@@ -395,8 +395,16 @@
     padding-top: 2rem;
   }
 
+  .arrow {
+    position: absolute;
+    left: 18rem;
+    right: 25%;
+    top: 40%;
+    bottom: 37.5%;
+  }
+
   .tag {
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: 7%;
     display: flex;
     flex-direction: column;
@@ -410,7 +418,7 @@
     border-radius: 8px;
     border: 0;
     color: rgba(37, 56, 88, 1);
-    padding-right: 2rem;
+    padding-right: 4rem;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 550;
@@ -421,10 +429,12 @@
 
   .tag2 {
     background-image: url(images/files/HTML.png);
+    padding-right: 6rem;
   }
 
   .tag3 {
     background-image: url(images/Ellipse\ 1.jpg);
+    padding-right: 7rem;
   }
 
   .tag:hover {
@@ -517,70 +527,5 @@
     position: absolute;
     top: 180px;
     padding-left: 3rem;
-  }
-
-  #form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    margin: 10%;
-    padding-top: 11rem;
-  }
-
-  .fields1 {
-    width: 100%;
-    padding: 4%;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    margin-left: -4%;
-    margin-bottom: 7%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    color: #172b4d;
-  }
-
-  .fields2 {
-    width: 100%;
-    padding: 4%;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    margin-left: -4%;
-    margin-bottom: 8%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #b3bac5;
-    resize: none;
-  }
-
-  .form-button {
-    background: #fcfbfe;
-    border-radius: 8px;
-    padding: 4%;
-    width: 50%;
-    color: #5660cd;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    border: 1px;
-  }
-
-  .form-button:hover {
-    background-color: rgb(181, 181, 183);
-    pointer-events: none;
-  }
-
-  .bottom-divider {
-    height: 3px;
-    width: 33%;
-    background-color: #0d151e;
-    border-radius: 10px;
-    margin-left: 33%;
   }
 }
