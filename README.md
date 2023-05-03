@@ -48,13 +48,6 @@
   </ul>
 </details>
 
-<details>
-  <summary>Javascript</summary>
-  <ul>
-    <li>Javascript</a></li>
-  </ul>
-</details>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
