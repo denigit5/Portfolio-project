@@ -230,7 +230,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-} 
+}
 
 .technologies li {
   margin-left: 5%;
@@ -428,7 +428,7 @@ body {
 }
 
 .tag2 {
- background-image: url(images/files/HTML.png);
+  background-image: url(images/files/HTML.png);
   padding-right: 6rem;
 }
 
@@ -542,26 +542,26 @@ body {
   background-image: url(images/files/footer\ shapes.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:right;
+  background-position: right;
 }
 
 .footer-heading {
-  font-family: Poppins;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: rgba(255, 255, 255, 1);
   padding-top: 26%;
 }
 
 .footer-paragraph {
-  font-family: Poppins;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: rgba(235, 235, 255, 1);
   padding-top: 5%;
@@ -576,7 +576,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:10px;
+  gap: 10px;
 }
 
 .flex li {
@@ -588,17 +588,15 @@ input[type=text],
 input[type=email],
 textarea {
   box-sizing: border-box;
-  font-family: poppins;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  color:rgba(23, 43, 77, 1);
+  color: rgba(23, 43, 77, 1);
   border-radius: 8px;
   width: 100%;
   padding: 8px 12px;
   outline: none;
-  border: none;
   font-size: 17px;
   line-height: 20px;
-  font-weight: 400;
   background: #fff;
   border: 1px solid #cfd8dc;
 }
@@ -610,14 +608,13 @@ textarea {
 
 button {
   padding: 8px 12px;
-  border:1px solid #cfd8dc ;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   line-height: 24px;
   font-weight: 500;
   font-size: 17px;
-  font-family: Poppins;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: rgba(96, 112, 255, 1);
-
 }
 
 button:hover {
@@ -634,19 +631,3 @@ button:hover {
   margin-left: 33%;
   margin-bottom: 1%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
