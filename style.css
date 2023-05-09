@@ -3,6 +3,8 @@
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body {
@@ -532,14 +534,16 @@ body {
   background-repeat: no-repeat;
   width: 375px;
   padding-left: 2px;
-  height: 600px;
+  height: 779px;
   border-top-left-radius: 70px;
 }
 
 .footer-container {
   background-image: url(images/files/footer\ shapes.png);
   background-repeat: no-repeat;
-  background-position-x:right;
+  background-position:right;
+  background-size: contain;
+  padding-top: 3px;
 }
 
 .footer-heading {
@@ -566,4 +570,81 @@ body {
   height: 137px;
   margin: auto;
 }
+
+/*
+form styles
+*/
+
+.flex {
+  margin-top: 2rem;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+}
+
+.flex li {
+  width: 90%;
+  margin: auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 8px 12px;
+  border:1px solid #cfd8dc ;
+  border-radius: 8px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btmline {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4px;
+  border-bottom:4px solid black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
