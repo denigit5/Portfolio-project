@@ -96,7 +96,7 @@ body {
 #main-body {
   width: 100%;
   padding-top: 20%;
-  padding-bottom: 23%;
+  padding-bottom: 20%;
   margin-right: 2%;
   position: relative;
   background-image: url(images/files/header\ shapes.png);
@@ -342,7 +342,7 @@ body {
   background-image: url(images/files/Base\ about\ my\ self.jpg);
   border-top-right-radius: 40px;
   width: 375px;
-  height: 1263px;
+  height: 1100px;
   margin-top: 10%;
 }
 
@@ -532,7 +532,7 @@ body {
 .footer {
   background-image: url(images/files/Contact\ me.jpg);
   background-repeat: no-repeat;
-  width: 375px;
+  width: 373px;
   padding-left: 2px;
   height: 779px;
   border-top-left-radius: 70px;
@@ -541,9 +541,8 @@ body {
 .footer-container {
   background-image: url(images/files/footer\ shapes.png);
   background-repeat: no-repeat;
-  background-position:right;
   background-size: contain;
-  padding-top: 3px;
+  background-position:right;
 }
 
 .footer-heading {
@@ -571,10 +570,6 @@ body {
   margin: auto;
 }
 
-/*
-form styles
-*/
-
 .flex {
   margin-top: 2rem;
   padding: 18px;
@@ -593,6 +588,9 @@ input[type=text],
 input[type=email],
 textarea {
   box-sizing: border-box;
+  font-family: poppins;
+  font-weight: 400;
+  color:rgba(23, 43, 77, 1);
   border-radius: 8px;
   width: 100%;
   padding: 8px 12px;
@@ -607,6 +605,7 @@ textarea {
 
 textarea {
   resize: none;
+  font-weight: 200;
 }
 
 button {
@@ -616,6 +615,9 @@ button {
   line-height: 24px;
   font-weight: 500;
   font-size: 17px;
+  font-family: Poppins;
+  color: rgba(96, 112, 255, 1);
+
 }
 
 button:hover {
@@ -624,13 +626,13 @@ button:hover {
 }
 
 .btmline {
-  width: 134px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 4px;
-  border-bottom:4px solid black;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  height: 3px;
+  width: 33%;
+  margin-top: 6%;
+  background-color: #0e0f0f;
+  border-radius: 10px;
+  margin-left: 33%;
+  margin-bottom: 1%;
 }
 
 
