@@ -49,6 +49,13 @@
 </details>
 
 
+### Key Features <a name="key-features"></a>
+
+
+- **Responsive design**
+- **Mastering HTML & CSS**
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
