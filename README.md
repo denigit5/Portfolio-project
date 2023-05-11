@@ -14,10 +14,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -49,11 +45,17 @@
 </details>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Responsive design**
+- **Mastering HTML & CSS**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
