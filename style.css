@@ -718,9 +718,12 @@ button:hover {
     line-height: 20px;
     margin-left: 4%;
     bottom: 25px;
+    width: 80px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    transform: rotate(180deg);
+    transition-duration: 2s;
   }
 
   .navbar-links2 {
