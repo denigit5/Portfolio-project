@@ -44,12 +44,11 @@ body {
 .navbar-links {
   position: fixed;
   left: -100%;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 100%;
   flex-direction: column;
   text-align: center;
-  background: #6070FF;
   mix-blend-mode: multiply;
   transition: 0.3s;
 }
@@ -93,7 +92,7 @@ body {
   display: block;
   position: absolute;
   right: 13%;
-  top: 6%; 
+  top: 6%;
 }
 
 .bar {
@@ -107,22 +106,22 @@ body {
   background-color: rgba(96, 112, 255, 1);
 }
 
-.hamburger:active .bar:nth-child(2){
-  transform:translate(8px);
+.hamburger:active .bar:nth-child(2) {
+  transform: translate(8px);
 }
 
-.hamburger:active .bar:nth-child(1){
-  transform:translate(8px);
+.hamburger:active .bar:nth-child(1) {
+  transform: translate(8px);
 }
 
-.hamburger:active .bar:nth-child(3){
-  transform:translate(8px);
+.hamburger:active .bar:nth-child(3) {
+  transform: translate(8px);
 }
 
 #main-body {
   width: 100%;
   position: relative;
-  padding-top: 8rem;;
+  padding-top: 8rem;
   background-image: url(images/files/header\ shapes.png);
   background-repeat: no-repeat;
   background-position: 0% 0%;
@@ -235,6 +234,18 @@ body {
   margin-left: 5%;
 }
 
+.canopy2 {
+  display: none;
+}
+
+.canopy3 {
+  display: none;
+}
+
+.canopy4 {
+  display: none;
+}
+
 .card1-section {
   font-size: 15px;
   font-weight: 500;
@@ -250,6 +261,25 @@ body {
   color: rgba(52, 69, 99, 1);
 }
 
+.card2-section {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  height: 76px;
+  width: 295px;
+  left: 0;
+  top: 92px;
+  margin-left: 5%;
+  color: rgba(52, 69, 99, 1);
+}
+
+.card2-sectionB {
+  display: none;
+}
+
 .technologies ul {
   display: flex;
   flex-wrap: wrap;
@@ -263,36 +293,22 @@ body {
   list-style: none;
 }
 
-.html1 {
+.lang {
   flex-direction: row;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px 8px;
   background: #eeeef7;
   border-radius: 8px;
   border: 0;
   color: rgba(96, 112, 255, 1);
 }
 
-.css2 {
-  flex-direction: row;
-  align-items: center;
-  list-style: none;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 0;
-  color: rgba(96, 112, 255, 1);
+.ruby {
+  display: none;
 }
 
-.javascript3 {
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  border: 0;
-  color: rgba(96, 112, 255, 1);
-  cursor: pointer;
+.css {
+  margin-left: -20%;
 }
 
 .see-project {
@@ -315,8 +331,8 @@ body {
 }
 
 .see-project:hover {
-  background-color: #6f7cf4;
-  color: white;
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .container2 {
@@ -345,6 +361,7 @@ body {
   color: rgba(23, 43, 77, 1);
   margin-left: 4.5%;
   padding-top: 2%;
+  width: 200px;
 }
 
 #about-myself {
@@ -378,6 +395,8 @@ body {
   color: rgba(52, 69, 99, 1);
   margin-left: 5%;
   padding-top: 3%;
+  height: 147px;
+  width: 327px;
 }
 
 .connect2 {
@@ -648,6 +667,21 @@ button:hover {
   margin-bottom: 1%;
 }
 
+@media (min-width: 375px) {
+  .homepage {
+    width: 100%;
+  }
+
+  #mainbody {
+    background-image: url(images/files/head\ shapes-desktop.png);
+    width: 100%;
+  }
+
+  #work-container {
+    width: 100%;
+  }
+}
+
 /* Desktop version */
 @media (min-width: 768px) {
   body {
@@ -665,13 +699,13 @@ button:hover {
     left: 8px;
     color: rgba(255, 255, 255, 1);
   }
-  
+
   #navbar {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
   }
-  
+
   .mylogo {
     text-decoration: none;
     display: flex;
@@ -688,36 +722,36 @@ button:hover {
     order: 0;
     flex-grow: 0;
   }
-  
+
   .navbar-links2 {
     display: flex;
     padding-left: 60%;
     width: 100%;
     height: 100%;
-    flex-direction :row;
+    flex-direction: row;
     text-align: center;
     transition: 0.3s;
   }
-  
+
   .navbar-links2 ul {
     padding-bottom: 10%;
     display: flex;
   }
-  
+
   .navbar-links2 li {
     display: flex;
     justify-content: space-between;
     right: 1px;
     padding-right: 2rem;
   }
-  
+
   .navbar-links2 li a {
     text-decoration: none;
     color: #344563;
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -725,11 +759,11 @@ button:hover {
     width: 62px;
     height: 20px;
   }
-  
+
   .navbar-links2 li a:hover {
     text-decoration: underline;
   }
-  
+
   .hamburger {
     display: none;
   }
@@ -741,26 +775,18 @@ button:hover {
     background-repeat: no-repeat;
     left: 5px;
     padding-bottom: 15%;
-
   }
-  
+
   .main-body-heading {
-    display: flex;
-    letter-spacing: 0.37px;
     width: 920px;
     height: 122px;
-    color: #172b4d;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700; 
+    font-weight: 700;
     font-size: 48px;
     line-height: 58px;
     padding-top: 5%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    margin-bottom: -1.4rem;
   }
-  
+
   .main-body-paragraph {
     color: #172b4d;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -770,6 +796,7 @@ button:hover {
     line-height: 28px;
     width: 750px;
     height: 98px;
+    margin-bottom: -1.5rem;
     padding-right: 15.4rem;
   }
 
@@ -777,14 +804,6 @@ button:hover {
     color: #7f8cff;
     padding-right: 49.5rem;
     margin-bottom: -2rem;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .social-media-list {
@@ -793,34 +812,24 @@ button:hover {
     gap: 17px;
     align-items: center;
     padding-right: 37rem;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   #works-container {
-    /*display: grid;*/
+    display: grid;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    column-gap: 3px;
-    list-style: none;
     padding-top: 50%;
-    left: 0px;
+    gap: 3px;
   }
 
   .container {
     display: flex;
     background: white;
     height: 496px;
-    width: 1250px;
-  }
-
-  .container2 {
-    display: flex;
-    background: white;
-    height: 496px;
-    width: 1250px; 
+    width: 1156px;
+    margin-bottom: -15rem;
+    margin-left: 6rem;
   }
 
   .container li {
@@ -833,13 +842,34 @@ button:hover {
     margin: 4%;
   }
 
-  .card-works1 {
-    width: 554px;
+  .container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background: white;
+    height: 488px;
+    width: 1156px;
+    margin-bottom: -15rem;
+    margin-left: 6rem;
+  }
+
+  .container2 li {
+    grid-template-rows: auto;
+    list-style: none;
+    flex-direction: row;
+  }
+
+  .container2 li img {
+    margin-right: 1.3rem;
+    margin-top: 1.5rem;
   }
 
   .card1-heading {
-    width: 486px;
+    width: 496px;
     height: 46px;
+  }
+
+  .card2-heading {
+    width: 500px;
   }
 
   .firstphas {
@@ -851,15 +881,49 @@ button:hover {
     padding-top: 2rem;
   }
 
+  .card2-section {
+    display: none;
+  }
+
+  .card2-sectionB {
+    display: flex;
+    width: 496px;
+    height: 53px;
+    margin-top: 13%;
+    padding-bottom: 3%;
+  }
+
+  .card1-section1 {
+    display: none;
+  }
+
   .canopy {
     width: 8px;
     height: 8px;
   }
 
-  .container2 {
-    background: white;
-    height: 496px;
-    width: 1250px;
+  .canopyA {
+    display: none;
+  }
+
+  .canopy2 {
+    display: flex;
+    padding-left: 1.6rem;
+    margin-top: -1rem;
+    margin-bottom: -3rem;
+  }
+
+  .canopy3 {
+    display: flex;
+    margin-bottom: -4rem;
+    margin-top: -1rem;
+  }
+
+  .canopy4 {
+    display: flex;
+    padding-left: 1.6rem;
+    margin-bottom: -3rem;
+    margin-top: -1rem;
   }
 
   .card-works1 {
@@ -869,5 +933,156 @@ button:hover {
   .card-works2-1 {
     display: table-row;
     padding-bottom: 80%;
+  }
+
+  .card-works2-2 {
+    height: 100%;
+    width: 100%;
+    margin: 8%;
+  }
+
+  .lang {
+    margin-left: -0.2rem;
+  }
+
+  .ruby {
+    display: inline-block;
+    flex-direction: row;
+    height: 32px;
+    width: 150px;
+  }
+
+  #about-myself {
+    background-image: url(images/files/about\ myself\ -\ background-\ shape-\ desktop.jpg);
+    border-top-right-radius: 10rem;
+    width: 1330px;
+    height: 916px;
+    margin-top: 25%;
+    margin-left: 0.2rem;
+  }
+
+  .about-me {
+    text-align: left;
+    color: rgba(23, 43, 77, 1);
+    margin-top: 8%;
+    margin-left: 7%;
+  }
+
+  .about-section {
+    display: flex;
+    padding-top: 1%;
+    width: 447px;
+    height: 102px;
+    margin-bottom: -1rem;
+    margin-left: 7%;
+  }
+
+  .connect2 {
+    margin-left: 7%;
+    margin-bottom: -1rem;
+  }
+
+  .social-media-list-1 {
+    padding-left: 4.3rem;
+    display: flex;
+    gap: 22px;
+    margin-bottom: 2rem;
+    margin-left: 3%;
+  }
+
+  .arrow {
+    padding-left: 62%;
+    margin-top: -17.5%;
+  }
+
+  .see-project-1 {
+    display: flex;
+    margin-top: 0.1px;
+    margin-left: 7%;
+  }
+
+  .langues {
+    display: grid;
+    gap: 20px;
+    padding-left: 50%;
+    margin-top: -30%;
+  }
+
+  .languages {
+    margin-left: -2rem;
+  }
+
+  #tech {
+    display: flex;
+  }
+
+  .tag {
+    width: 120px;
+    height: 120px;
+    flex-direction: column-reverse;
+    margin-right: 1rem;
+    background-position-y: 15%;
+    background-position-x: 20%;
+    padding-top: 8%;
+    padding-right: 2px;
+  }
+
+  .tag2 {
+    padding-right: 2rem;
+  }
+
+  .tag3 {
+    padding-right: 3.5rem;
+  }
+
+  .divider {
+    margin-bottom: -2rem;
+    width: 470px;
+  }
+
+  .frameworks {
+    margin-right: 10.2rem;
+  }
+
+  .skills {
+    margin-right: 10rem;
+  }
+
+  .footer {
+    background-color: rgba(96, 112, 255, 1);
+    width: 1330px;
+    height: 846px;
+  }
+
+  .footer-container {
+    background-image: url(images/files/footer-background-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+  }
+
+  .footer-heading {
+    padding-top: 12%;
+    padding-bottom: 1rem;
+  }
+
+  .footer-paragraph {
+    height: 124px;
+    width: 540px;
+    margin-bottom: -3rem;
+  }
+
+  .flex {
+    width: 35%;
+    align-items: center;
+    padding-left: 32%;
+  }
+
+  .btmline {
+    display: none;
+  }
+
+  button {
+    margin-left: 30%;
   }
 }
