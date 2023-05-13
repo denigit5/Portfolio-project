@@ -53,12 +53,9 @@
 - **Responsive design**
 - **Mastering HTML & CSS**
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -68,7 +65,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/denigit5/Portfolio.git
+Clone this repository to your desired folder:https://github.com/denigit5/Mobile-portfolio-project.git
 
 
 
@@ -94,6 +91,12 @@ To run the project, execute in the live server in the browser.
 - GitHub: [@denigit5](https://github.com/denigit5)
 - Twitter: [@denysemukiza](https://twitter.com/denyse_mukiza)
 - LinkedIn: [Denyse Mukiza](https://www.linkedin.com/in/denyse-mukiza-92a1b0228/)
+
+**Contributors**
+
+- GitHub: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
+- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
+- Twitter: [@anoldmwawasi](https://github.com/MPDADDY)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
