@@ -30,7 +30,6 @@ body {
   text-decoration: none;
   position: relative;
   color: #6070ff;
-  width: 100px;
   margin: 0.5rem;
   padding-top: 1.8rem;
   padding-left: 0.3rem;
@@ -329,7 +328,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  transition: 0.3s ease-out;
 }
 
 .see-project:hover {
@@ -677,7 +675,7 @@ button:hover {
   #mainbody {
     background-image: url(images/files/head\ shapes-desktop.png);
     width: 100%;
-  }add
+  }
 
   #about-myself {
     width: 100%;
@@ -763,12 +761,10 @@ button:hover {
     line-height: 20px;
     width: 62px;
     height: 20px;
-    transition: 0.4s ease;
   }
 
   .navbar-links2 li a:hover {
-    color: #6070ff;
-    font-size: 18px;
+    text-decoration: underline;
   }
 
   .hamburger {
