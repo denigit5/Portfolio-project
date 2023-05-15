@@ -329,6 +329,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  transition: 0.3s ease-out;
 }
 
 .see-project:hover {
@@ -766,10 +767,12 @@ button:hover {
     line-height: 20px;
     width: 62px;
     height: 20px;
+    transition: 0.4s ease;
   }
 
   .navbar-links2 li a:hover {
-    text-decoration: underline;
+    color: #6070ff;
+    font-size: 18px;
   }
 
   .hamburger {
