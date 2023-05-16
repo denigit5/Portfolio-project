@@ -438,7 +438,7 @@
   }
 
   .tag:hover {
-    background-color: rgb(203, 203, 205);
+    background-color: rgb(153, 153, 155);
     pointer-events: none;
   }
 
