@@ -14,10 +14,8 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+    - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -49,14 +47,17 @@
 </details>
 
 
+
+
+### Key Features <a name="key-features"></a>
+
+
+- **Responsive design**
+- **Mastering HTML & CSS**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -66,7 +67,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Gitlearn5/Hello-Microverse.git
+Clone this repository to your desired folder:https://github.com/denigit5/Mobile-portfolio-project.git
 
 
 
@@ -75,12 +76,17 @@ Clone this repository to your desired folder: https://github.com/Gitlearn5/Hello
 To run the project, execute in the live server in the browser.
 
 
-### Run tests(Not applicable)
+### Run tests
+To run tests, run the following command:
+- `npx hint .`
+- `npx eslint .`
+- `npx stylelint "./css/style.css"`
 
 
+### Deployment
 
-### Deployment(Not applicable)
-
+- This project is already deployed with github pages.
+- Evaluated environment url: https://denigit5.github.io/Mobile-portfolio-project/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,6 +98,12 @@ To run the project, execute in the live server in the browser.
 - GitHub: [@denigit5](https://github.com/denigit5)
 - Twitter: [@denysemukiza](https://twitter.com/denyse_mukiza)
 - LinkedIn: [Denyse Mukiza](https://www.linkedin.com/in/denyse-mukiza-92a1b0228/)
+
+**Contributors**
+
+- GitHub: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
+- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
+- Twitter: [@anoldmwawasi](https://github.com/MPDADDY)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
