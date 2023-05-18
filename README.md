@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-    <h3>Portfolio README Template</h3>
 
 </div>
 
