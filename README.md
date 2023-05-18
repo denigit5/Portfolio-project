@@ -84,7 +84,9 @@ To run the project, execute in the live server in the browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+<a href="https://www.loom.com/share/9a981ab31f914af1a809b96aa326c91d"> Here is a Loom Walkthrough video for my project </a>
 
 👤 **Author**
 
@@ -103,7 +105,7 @@ To run the project, execute in the live server in the browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Live Demo]**
+- [ ] **Real life projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
