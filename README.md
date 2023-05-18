@@ -91,8 +91,6 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 👤 **Author**
 
 - GitHub: [@denigit5](https://github.com/denigit5)
