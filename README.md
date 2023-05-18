@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-                <h3><b>Portfolio README Template</b></h3>
+    <h3>Portfolio README Template</h3>
 
 </div>
 
