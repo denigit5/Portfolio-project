@@ -30,6 +30,7 @@ body {
   text-decoration: none;
   position: relative;
   color: #6070ff;
+  width: 100%;
   margin: 0.5rem;
   padding-top: 1.8rem;
   padding-left: 0.3rem;
@@ -677,7 +678,7 @@ button:hover {
     width: 100%;
   }
 
-  #work-container {
+  #about-myself {
     width: 100%;
   }
 }
@@ -717,10 +718,13 @@ button:hover {
     font-size: 18px;
     line-height: 20px;
     margin-left: 4%;
-    bottom:24px;
+    bottom: 24px;
+    width: 80px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    transform: rotate(180deg);
+    transition-duration: 2s;
   }
 
   .navbar-links2 {

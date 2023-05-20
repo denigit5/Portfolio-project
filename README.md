@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-  <h3><b>Portfolio README Template</b></h3>
 
 </div>
 
@@ -14,6 +13,8 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -74,17 +75,24 @@ Clone this repository to your desired folder:https://github.com/denigit5/Mobile-
 To run the project, execute in the live server in the browser.
 
 
-### Run tests(Not applicable)
+### Run tests
+To run tests, run the following command:
+- `npx hint .`
+- `npx eslint .`
+- `npx stylelint "./css/style.css"`
 
 
+### Deployment
 
-### Deployment(Not applicable)
-
+- This project is already deployed with github pages.
+- Evaluated environment url: https://denigit5.github.io/Mobile-portfolio-project/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+<a href="https://www.loom.com/share/9a981ab31f914af1a809b96aa326c91d"> Here is a Loom Walkthrough video for my project </a>
 
 👤 **Author**
 
@@ -103,7 +111,7 @@ To run the project, execute in the live server in the browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Live Demo]**
+- [ ] **Real life projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
