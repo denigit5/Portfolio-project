@@ -717,7 +717,7 @@ button:hover {
     font-size: 18px;
     line-height: 20px;
     margin-left: 4%;
-    bottom: 25px;
+    bottom:24px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -761,7 +761,8 @@ button:hover {
   }
 
   .navbar-links2 li a:hover {
-    text-decoration: underline;
+    font-size: 18px;
+    color: #6070ff;
   }
 
   .hamburger {
