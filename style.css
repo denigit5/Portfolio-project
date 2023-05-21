@@ -32,7 +32,7 @@ body {
   color: #6070ff;
   width: 100%;
   margin: 0.5rem;
-  padding-top: 1.8rem;
+  padding-top: 1rem;
   padding-left: 0.3rem;
   align-items: center;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -44,13 +44,16 @@ body {
 
 .navbar-links {
   position: fixed;
-  left: -100%;
+  display: none;
   top: 0;
   width: 100%;
   height: 100%;
   flex-direction: column;
   text-align: center;
   mix-blend-mode: multiply;
+  background-color: #6070ff;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
   transition: 0.3s;
 }
 
@@ -58,42 +61,42 @@ body {
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 2rem;
 }
 
 .navbar-links li {
   text-align: center;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
   list-style: none;
   font-size: 20px;
 }
 
 .navbar-links li a {
   display: flex;
+  padding-top: 10px;
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  padding-top: 2.5rem;
   align-items: center;
   text-align: center;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 32px;
   line-height: 44px;
 }
 
-.navbar-links:active {
-  left: 0;
+.navbar-links li a:hover {
+  background-color: rgb(140, 142, 248);
 }
 
 .navbar-links2 {
   display: none;
 }
 
-.hamburger {
+.toggle-button {
   display: block;
+  cursor: none;
   position: absolute;
   right: 13%;
-  top: 6%;
+  top: 4%;
 }
 
 .bar {
@@ -107,16 +110,20 @@ body {
   background-color: rgba(96, 112, 255, 1);
 }
 
-.hamburger:active .bar:nth-child(2) {
+.toggle-button:active .bar:nth-child(2) {
   transform: translate(8px);
 }
 
-.hamburger:active .bar:nth-child(1) {
+.toggle-button:active .bar:nth-child(1) {
   transform: translate(8px);
 }
 
-.hamburger:active .bar:nth-child(3) {
+.toggle-button:active .bar:nth-child(3) {
   transform: translate(8px);
+}
+
+.navbar-links:active {
+  display: inline;
 }
 
 #main-body {
@@ -613,6 +620,10 @@ body {
   margin: auto;
 }
 
+.navbar-links li:first-child {
+  margin-top: 6rem;
+}
+
 input[type=text],
 input[type=email] {
   box-sizing: border-box;
@@ -718,7 +729,7 @@ button:hover {
     font-size: 18px;
     line-height: 20px;
     margin-left: 4%;
-    bottom: 25px;
+    bottom: 24px;
     width: 80px;
     flex: none;
     order: 0;
@@ -730,6 +741,7 @@ button:hover {
   .navbar-links2 {
     display: flex;
     padding-left: 60%;
+    padding-top: 2rem;
     width: 100%;
     height: 100%;
     flex-direction: row;
@@ -746,7 +758,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     right: 1px;
-    padding-right: 2rem;
+    padding-right: 3.5rem;
   }
 
   .navbar-links2 li a {
@@ -765,10 +777,11 @@ button:hover {
   }
 
   .navbar-links2 li a:hover {
-    text-decoration: underline;
+    font-size: 16px;
+    color: #6070ff;
   }
 
-  .hamburger {
+  .toggle-button {
     display: none;
   }
 
