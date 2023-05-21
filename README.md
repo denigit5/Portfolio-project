@@ -66,7 +66,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:https://github.com/denigit5/Mobile-portfolio-project.git
+Clone this repository to your desired folder: https://denigit5.github.io/Portfolio-project/
 
 
 
