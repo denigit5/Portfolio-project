@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -39,7 +39,7 @@ body {
   padding-top: 1rem;
   padding-left: 0.3rem;
   align-items: center;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -47,7 +47,7 @@ body {
 }
 
 .close-button {
-  margin-left: 10rem;
+  margin-left: 15rem;
   margin-top: 3rem;
   margin-bottom: -8rem;
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .navbar-links li a:last-child {
-  margin-bottom: -10rem; 
+  margin-bottom: -10rem;
 }
 
 .navbar-links li a {
@@ -102,7 +102,7 @@ body {
   text-decoration: none;
   align-items: center;
   text-align: center;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -135,7 +135,8 @@ body {
   background-color: rgba(96, 112, 255, 1);
 }
 
-.toggle-button:active {
+.toggle-button:hover {
+  cursor: pointer;
   transform: scale(0.8);
 }
 
@@ -149,12 +150,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 .main-body-heading {
   color: #172b4d;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -174,7 +175,7 @@ body {
   margin-top: 2rem;
   margin-top: 2%;
   color: #172b4d;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -185,7 +186,7 @@ body {
   color: #7f8cff;
   padding-top: 4%;
   padding-right: 13rem;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -242,7 +243,7 @@ body {
 .card1-heading {
   font-size: 32px;
   font-weight: 700;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
@@ -270,7 +271,7 @@ body {
 .card1-section {
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
@@ -285,7 +286,7 @@ body {
 .card2-section {
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
@@ -343,7 +344,7 @@ body {
   border: 1px solid rgba(57, 109, 242, 1);
   border-radius: 16px;
   color: rgb(86, 135, 235);
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -375,7 +376,7 @@ body {
 .card2-heading {
   font-size: 32px;
   font-weight: 700;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
@@ -397,7 +398,7 @@ body {
 .about-me {
   font-size: 40px;
   font-weight: 700;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
@@ -409,7 +410,7 @@ body {
 .about-section {
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
@@ -424,7 +425,7 @@ body {
   color: #7f8cff;
   padding-top: 4%;
   padding-right: 13.5rem;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -435,7 +436,7 @@ body {
 .languages {
   font-style: normal;
   font-weight: 500;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0;
@@ -469,7 +470,7 @@ body {
   border: 0;
   color: rgba(37, 56, 88, 1);
   padding-right: 4rem;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 550;
   line-height: 24px;
@@ -497,7 +498,7 @@ body {
 }
 
 .frameworks {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -514,7 +515,7 @@ body {
 .skills {
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
@@ -556,7 +557,7 @@ body {
 .reach-out {
   padding-top: 5rem;
   font-size: 40px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
@@ -567,7 +568,7 @@ body {
 .paragraph-1 {
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
@@ -595,7 +596,7 @@ body {
 }
 
 .footer-heading {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -606,7 +607,7 @@ body {
 }
 
 .footer-paragraph {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -637,10 +638,10 @@ body {
   margin-top: 6rem;
 }
 
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   box-sizing: border-box;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: rgba(23, 43, 77, 1);
   border-radius: 8px;
@@ -656,7 +657,7 @@ input[type=email] {
 
 textarea {
   box-sizing: border-box;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgba(23, 43, 77, 1);
   border-radius: 8px;
   width: 100%;
@@ -673,7 +674,7 @@ button {
   line-height: 24px;
   font-weight: 500;
   font-size: 17px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgba(96, 112, 255, 1);
 }
 
@@ -736,7 +737,7 @@ button:hover {
     display: flex;
     color: #6070ff;
     align-items: center;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -784,7 +785,7 @@ button:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -823,7 +824,7 @@ button:hover {
 
   .main-body-paragraph {
     color: #172b4d;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
