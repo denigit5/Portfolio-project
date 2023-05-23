@@ -44,7 +44,7 @@ body {
 
 .close-button {
   margin-left: 15rem;
-  margin-top: 3rem;
+  margin-top: 1.8rem;
   margin-bottom: -8rem;
 }
 
@@ -60,6 +60,7 @@ body {
   height: 100%;
   flex-direction: column;
   text-align: center;
+  overflow: hidden;
   mix-blend-mode: multiply;
   background-color: #6070ff;
   backdrop-filter: blur(10px);
@@ -103,7 +104,7 @@ body {
 }
 
 .navbar-links li a:hover {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 .navbar-links2 {
