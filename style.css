@@ -367,6 +367,13 @@ body {
   overflow: auto;
 }
 
+.close {
+  color: #67798E;
+  font-size: 36px;
+  padding-right: 6%;
+  float: right;
+}
+
 .popup-inactive {
   display: none;
 }
