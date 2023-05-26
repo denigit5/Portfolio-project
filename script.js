@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       <li><button  class="lang">Javascript</button></li>
                   </ul>
                   <a href="#">
-                  <button class="see-project see-project1" type="button">See project</button>
+                  <button class="see-project see-project1">See project</button>
               </a> 
           </li>
       </ul>
@@ -235,6 +235,14 @@ document.addEventListener('DOMContentLoaded', () => {
      <div class="overlay"></div>
    </a> 
   `;
+  $(".see-project1 ").hover(
+    function() {
+        $(".see-project1:hover").css("background-color", "red");
+    }, 
+    function() {
+        $(".see-project1").css("background-color", "white");
+    }
+)
   document.querySelector('.see-project1').addEventListener('click', () => {
     document.querySelector('.popup').classList.remove('popup-inactive');
     document.querySelector('.popup').classList.add('popup');
@@ -269,5 +277,17 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.see-project4').addEventListener('click', () => {
     document.querySelector('.popup-cc').classList.remove('popup-inactive');
     document.querySelector('.popup-cc').classList.add('popup-cc');
+  });
+  const form = document.querySelector('#form');
+  form.addEventListener('submit', (e) => {
+    const emailInput = document.querySelector('#email').value;
+    const SubmitEmail = email.toLowerCase();
+    if ((emailInput !== SubmitEmail)) {
+      document.querySelector('.failed').classList.add('validate-email-disabled');
+      e.preventDefault();
+    } else {
+      document.querySelector('.failed').classList.remove('validate-email-disabled');
+      form.onSubmit();
+    }
   });
 });
