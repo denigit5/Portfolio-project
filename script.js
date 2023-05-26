@@ -235,14 +235,6 @@ document.addEventListener('DOMContentLoaded', () => {
      <div class="overlay"></div>
    </a> 
   `;
-  $(".see-project1 ").hover(
-    function() {
-        $(".see-project1:hover").css("background-color", "red");
-    }, 
-    function() {
-        $(".see-project1").css("background-color", "white");
-    }
-)
   document.querySelector('.see-project1').addEventListener('click', () => {
     document.querySelector('.popup').classList.remove('popup-inactive');
     document.querySelector('.popup').classList.add('popup');
