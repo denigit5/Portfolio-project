@@ -375,13 +375,6 @@ body {
   padding-left: 30%;
 }
 
-.close {
-  color: #67798e;
-  font-size: 36px;
-  padding-right: 6%;
-  float: right;
-}
-
 .overlay {
   display: flex;
   position: fixed;
