@@ -8,6 +8,8 @@
 
 body {
   background-color: #f5f7fa;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  z-index: 9999;
 }
 
 .homepage {
@@ -791,6 +793,15 @@ button:hover {
   margin-bottom: 1%;
 }
 
+.failed {
+  display: flex;
+  color: white;
+}
+
+.validate-email-disabled {
+  display: none;
+}
+
 /* --Desktop version-- */
 @media (min-width: 768px) {
   body {
@@ -939,6 +950,7 @@ button:hover {
     align-items: center;
     padding-top: 50%;
     gap: 3px;
+    z-index: 5;
   }
 
   /* --POPUP WINDOW-- */
@@ -991,8 +1003,8 @@ button:hover {
   .live-links {
     display: flex;
     flex-direction: row;
-    padding-left: 25rem;
-    gap: 2px;
+    padding-left: 26rem;
+    gap: 20px;
   }
 
   .live-link2 {
@@ -1010,6 +1022,7 @@ button:hover {
     width: 1156px;
     margin-bottom: -15rem;
     margin-left: 6rem;
+    z-index: 1;
   }
 
   .container li {
@@ -1030,6 +1043,7 @@ button:hover {
     width: 1156px;
     margin-bottom: -15rem;
     margin-left: 6rem;
+    z-index: 1;
   }
 
   .container2 li {
@@ -1130,22 +1144,6 @@ button:hover {
     flex-direction: row;
     height: 32px;
     width: 150px;
-  }
-
-  button {
-    padding: 8px 12px;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    line-height: 24px;
-    font-weight: 500;
-    font-size: 17px;
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    color: rgba(96, 112, 255, 1);
-  }
-
-  button:hover {
-    background-color: #6070ff;
-    color: #fff;
   }
 
   #about-myself {
