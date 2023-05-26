@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       <li><button  class="lang">CSS</button></li>
                       <li><button  class="lang">Javascript</button></li>
                   </ul>
-                  <a href="">
+                  <a href="#">
                   <button class="see-project see-project1">See project</button>
               </a> 
           </li>
@@ -277,5 +277,19 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.see-project4').addEventListener('click', () => {
     document.querySelector('.popup-cc').classList.remove('popup-inactive');
     document.querySelector('.popup-cc').classList.add('popup-cc');
+  });
+  const form = document.querySelector('#form');
+  form.addEventListener('submit', (event) => {
+    const emailInput = document.querySelector('#email').value;
+    const SubmitEmail = emailInput.toLowerCase();
+    if ((emailInput !== SubmitEmail)) {
+      document.querySelector('.failed').classList.add('failed');
+      document.querySelector('.failed').classList.remove('validate-email-disabled');
+      event.preventDefault();
+    } else {
+      document.querySelector('.failed').classList.add('validate-email-disabled');
+      document.querySelector('.failed').classList.remove('failed');
+      form.onSubmit();
+    }
   });
 });
