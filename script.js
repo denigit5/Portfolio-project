@@ -279,12 +279,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.popup-cc').classList.add('popup-cc');
   });
   const form = document.querySelector('#form');
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', (event) => {
     const emailInput = document.querySelector('#email').value;
-    const SubmitEmail = email.toLowerCase();
+    const SubmitEmail = emailInput.toLowerCase();
     if ((emailInput !== SubmitEmail)) {
       document.querySelector('.failed').classList.add('validate-email-disabled');
-      e.preventDefault();
+      event.preventDefault();
     } else {
       document.querySelector('.failed').classList.remove('validate-email-disabled');
       form.onSubmit();

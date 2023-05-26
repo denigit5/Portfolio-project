@@ -8,6 +8,7 @@
 
 body {
   background-color: #f5f7fa;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 .homepage {
@@ -791,6 +792,15 @@ button:hover {
   margin-bottom: 1%;
 }
 
+.failed {
+  display: flex;
+  color: white;
+}
+
+.validate-email-disabled {
+  display: none;
+}
+
 /* --Desktop version-- */
 @media (min-width: 768px) {
   body {
@@ -991,8 +1001,8 @@ button:hover {
   .live-links {
     display: flex;
     flex-direction: row;
-    padding-left: 25rem;
-    gap: 2px;
+    padding-left: 26rem;
+    gap: 20px;
   }
 
   .live-link2 {
@@ -1130,7 +1140,7 @@ button:hover {
     flex-direction: row;
     height: 32px;
     width: 150px;
-  }
+r: 
 
   button {
     padding: 8px 12px;
@@ -1146,78 +1156,8 @@ button:hover {
   button:hover {
     background-color: #6070ff;
     color: #fff;
-  }
-
-  #about-myself {
-    background-image: url(images/files/about\ myself\ -\ background-\ shape-\ desktop.jpg);
-    border-top-right-radius: 10rem;
-    width: 1330px;
-    height: 916px;
-    bottom: -550%;
-    margin-left: 0.3rem;
-  }
-
-  .about-me {
-    text-align: left;
-    color: rgba(23, 43, 77, 1);
-    margin-top: 8%;
-    margin-left: 7%;
-  }
-
-  .about-section {
-    display: flex;
-    padding-top: 1%;
-    width: 447px;
-    height: 102px;
-    margin-bottom: -1rem;
-    margin-left: 7%;
-  }
-
-  .connect2 {
-    margin-left: 7%;
-    margin-bottom: -1rem;
-  }
-
-  .social-media-list-1 {
-    padding-left: 4.3rem;
-    display: flex;
-    gap: 22px;
-    margin-bottom: 2rem;
-    margin-left: 3%;
-  }
-
-  .arrow {
-    padding-left: 62%;
-    margin-top: -17.5%;
-  }
-
-  .see-project-1 {
-    display: flex;
-    margin-top: 0.1px;
-    margin-left: 7%;
-  }
-
-  .langues {
-    display: grid;
-    gap: 20px;
-    padding-left: 50%;
-    margin-top: -30%;
-  }
-
-  .languages {
-    margin-left: -2rem;
-  }
-
-  #tech {
-    display: flex;
-  }
-
-  .tag {
-    width: 120px;
-    height: 120px;
-    flex-direction: column-reverse;
-    margin-right: 1rem;
-    background-position-y: 15%;
+  }#fff;
+ckground-position-y: 15%;
     background-position-x: 20%;
     padding-top: 8%;
     padding-right: 2px;
