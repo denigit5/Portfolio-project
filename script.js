@@ -40,12 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
                       <li><button  class="lang">CSS</button></li>
                       <li><button  class="lang">Javascript</button></li>
                   </ul>
-                  <a href="">
+                  <a href="#">
                   <button class="see-project see-project1">See project</button>
               </a> 
           </li>
       </ul>
-    <a href="" class="popup popup-inactive">
+    <a href="#" class="popup popup-inactive">
      <div class="popup one-content">
         <span class="close close1">&times</span>
         <div class="object-details">
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="live-links">
                 <ul class="live-links">
                     <li><button class="see-project live-link1">See live</button></li>
-                    <li><button  class="see-project live-link2">See source</button></li>  
+                    <li><button class="see-project live-link2" type="button">See source</button></li>  
                 </ul>
             </div>
         </div>
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                               <li><button  class="lang">Javascript</button></li>
                           </ul>
                           <a href="#">
-                          <button class="see-project see-project2">See project</button>
+                          <button class="see-project see-project2" type="button">See project</button>
                       </a>
                   </li>
               </ul>
@@ -235,14 +235,6 @@ document.addEventListener('DOMContentLoaded', () => {
      <div class="overlay"></div>
    </a> 
   `;
-  $(".see-project1 ").hover(
-    function() {
-        $(".see-project1:hover").css("background-color", "red");
-    }, 
-    function() {
-        $(".see-project1").css("background-color", "white");
-    }
-)
   document.querySelector('.see-project1').addEventListener('click', () => {
     document.querySelector('.popup').classList.remove('popup-inactive');
     document.querySelector('.popup').classList.add('popup');

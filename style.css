@@ -9,7 +9,6 @@
 body {
   background-color: #f5f7fa;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  z-index: 9999;
 }
 
 .homepage {
@@ -367,19 +366,19 @@ body {
   overflow: auto;
 }
 
-.close {
-  color: #67798E;
-  font-size: 36px;
-  padding-right: 6%;
-  float: right;
-}
-
 .popup-inactive {
   display: none;
 }
 
 .picture {
   padding-left: 30%;
+}
+
+.close {
+  color: #67798e;
+  font-size: 36px;
+  padding-right: 6%;
+  float: right;
 }
 
 .overlay {
