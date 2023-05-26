@@ -375,6 +375,13 @@ body {
   padding-left: 30%;
 }
 
+.close {
+  color: #67798E;
+  font-size: 36px;
+  padding-right: 6%;
+  float: right;
+}
+
 .overlay {
   display: flex;
   position: fixed;
@@ -790,8 +797,11 @@ button:hover {
 .failed {
   display: flex;
   color: white;
-  padding-left: 34%;
+  font-size: 11px;
+  padding-left: 2rem;
+  margin-top: -1rem;
 }
+
 .validate-email-disabled {
   display: none;
 }
@@ -1272,5 +1282,11 @@ button:hover {
 
   .submitform {
     margin-left: 30%;
+  }
+
+  .failed1 {
+    padding-left: 33%;
+    padding-top: 1rem;
+    font-size: 17px;
   }
 }
