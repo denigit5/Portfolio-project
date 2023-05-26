@@ -787,6 +787,15 @@ button:hover {
   margin-bottom: 1%;
 }
 
+.failed {
+  display: flex;
+  color: white;
+  padding-left: 34%;
+}
+.validate-email-disabled {
+  display: none;
+}
+
 /* --Desktop version-- */
 @media (min-width: 768px) {
   body {
