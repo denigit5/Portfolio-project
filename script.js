@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
                       <li><button  class="lang">CSS</button></li>
                       <li><button  class="lang">Javascript</button></li>
                   </ul>
-                  <a href="#">
+                  <a href="">
                   <button class="see-project see-project1">See project</button>
-              </a>
+              </a> 
           </li>
       </ul>
     <a href="" class="popup popup-inactive">
