@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.navbar-links').classList.remove('navbar-links-active');
     document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
   });
- const name = document.getElementById('name');
+  const name = document.getElementById('name');
   const email = document.getElementById('email');
   const text = document.getElementById('text');
   const formfield = document.getElementById('form');
@@ -34,14 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.text = text.value;
     localStorage.setItem('formData', JSON.stringify(formData));
   });
-   window.onload = () => {
-   const inputData = JSON.parse(localStorage.getItem('formData'));
+  window.onload = () => {
+    const inputData = JSON.parse(localStorage.getItem('formData'));
     if (inputData) {
       name.value = inputData.name; 
       email.value = inputData.email;
       text.value = inputData.text;
     }
- };
+  };
   document.querySelector('#form');
   const body = document.querySelector('body');
   const gridsWork = document.createElement('grids-works');
