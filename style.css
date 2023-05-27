@@ -9,6 +9,8 @@
 
 body {
   background-color: #f5f7fa;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  z-index: 9999;
 }
 
 .homepage {
@@ -112,7 +114,7 @@ body {
   display: none;
 }
 
-.toggle-button {
+.hamburger {
   display: block;
   cursor: none;
   position: absolute;
@@ -131,7 +133,7 @@ body {
   background-color: rgba(96, 112, 255, 1);
 }
 
-.toggle-button:hover {
+.hamburger:hover {
   cursor: pointer;
   transform: scale(0.8);
 }
@@ -348,10 +350,114 @@ body {
   text-align: center;
 }
 
-.see-project:hover {
-  background-color: #6070ff;
-  color: #fff;
+/* ---Popup Window-- */
+
+.popup {
+  visibility: visible;
+  position: fixed;
+  z-index: 60;
+  height: 90%;
+  padding-top: 0.5rem;
+  width: 88%;
+  left: 4.5%;
+  top: 7.6rem;
+  border-radius: 16px;
+  margin-top: -6rem;
+  align-items: center;
+  background-color: white;
+  overflow-x: hidden;
 }
+
+.popup-inactive {
+  display: none;
+}
+
+.picture {
+  padding-left: 30%;
+}
+
+.close {
+  color: #67798e;
+  font-size: 36px;
+  padding-right: 6%;
+  float: right;
+}
+
+.overlay {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #9aacc7;
+  backdrop-filter: blur(5px);
+  transition: 0.1s ease;
+  opacity: 0.5;
+}
+
+.overlay-inactive {
+  display: none;
+}
+
+.deskpop {
+  display: none;
+}
+
+.popupimg1 {
+  transform: scale(0.9);
+  width: 90%;
+  margin-top: -0.8rem;
+}
+
+.poplist {
+  margin-top: 8.8rem;
+  transform: scale(0.8);
+  margin-left: -2.6rem;
+}
+
+.poparagraph2 {
+  display: none;
+}
+
+.lang1 {
+  display: none;
+}
+
+.live-link1 {
+  background-image: url(images/files/see-live-icon.png);
+  padding-left: 2px;
+  background-position-x: 6.5rem;
+  background-position-y: 1rem;
+  background-repeat: no-repeat;
+  background-color: #f9fafc;
+  margin-bottom: -2rem;
+  margin-top: 2rem;
+  font-size: 15px;
+  color: #396df2;
+  width: 140px;
+  height: 48px;
+}
+
+.live-link2 {
+  background-image: url(images/files/Vector\ git\ \ popup.png);
+  padding-left: 2px;
+  background-position-x: 7rem;
+  background-position-y: 1rem;
+  background-repeat: no-repeat;
+  background-color: #f9fafc;
+  display: flex;
+  margin-left: 10.5rem;
+  margin-bottom: 5rem;
+  margin-top: -12%;
+  font-size: 15px;
+  color: #396df2;
+  width: 140px;
+  height: 48px;
+}
+
+/* ---End of Popup Window-- */
 
 .container2 {
   background: white;
@@ -386,9 +492,9 @@ body {
   background-image: url(images/files/Base\ about\ my\ self.jpg);
   border-top-right-radius: 40px;
   position: absolute;
+  bottom: -710%;
   width: 375px;
   height: 1263px;
-  margin-top: 15%;
 }
 
 .about-me {
@@ -702,7 +808,7 @@ button:hover {
   display: none;
 }
 
-/* Desktop version */
+/* --Desktop version-- */
 @media (min-width: 768px) {
   body {
     min-width: 768px;
@@ -770,7 +876,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     right: 1px;
-    padding-right: 3.5rem;
+    padding-right: 3rem;
   }
 
   .navbar-links2 li a {
@@ -790,10 +896,10 @@ button:hover {
 
   .navbar-links2 li a:hover {
     font-size: 16px;
-    color: #6070ff;
+    color: rgb(86, 135, 235);
   }
 
-  .toggle-button {
+  .hamburger {
     display: none;
   }
 
@@ -850,7 +956,70 @@ button:hover {
     align-items: center;
     padding-top: 50%;
     gap: 3px;
+    z-index: 5;
   }
+
+  /* --POPUP WINDOW-- */
+
+  .deskpop {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .picture {
+    transform: scaleX(1.3);
+    margin-left: -8rem;
+  }
+
+  .desklist {
+    padding-left: 80%;
+    margin-right: -5rem;
+    margin-top: -17rem;
+  }
+
+  .poparagraph2 {
+    display: flex;
+    width: 778px;
+    height: 271px;
+    font-size: 15.8px;
+    font-weight: 400;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 3.5%;
+    margin-top: 1rem;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .poparagraph1 {
+    display: none;
+  }
+
+  .lang1 {
+    display: flex;
+  }
+
+  .close1 {
+    display: flex;
+    margin-right: -2.2rem;
+  }
+
+  .live-links {
+    display: flex;
+    flex-direction: row;
+    padding-left: 26rem;
+    gap: 20px;
+  }
+
+  .live-link2 {
+    margin-left: 10px;
+    margin-bottom: 5%;
+    margin-top: 2rem;
+  }
+
+  /* --END OF POPUP WINDOW-- */
 
   .container {
     display: flex;
@@ -859,6 +1028,7 @@ button:hover {
     width: 1156px;
     margin-bottom: -15rem;
     margin-left: 6rem;
+    z-index: 1;
   }
 
   .container li {
@@ -879,6 +1049,7 @@ button:hover {
     width: 1156px;
     margin-bottom: -15rem;
     margin-left: 6rem;
+    z-index: 1;
   }
 
   .container2 li {
@@ -986,8 +1157,8 @@ button:hover {
     border-top-right-radius: 10rem;
     width: 1330px;
     height: 916px;
-    margin-top: 25%;
-    margin-left: 0.2rem;
+    bottom: -550%;
+    margin-left: 0.3rem;
   }
 
   .about-me {
@@ -1111,7 +1282,7 @@ button:hover {
     display: none;
   }
 
-  button {
+  .submitform {
     margin-left: 30%;
   }
 
