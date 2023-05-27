@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.navbar-links').classList.remove('navbar-links-active');
     document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
   });
-  const projects = [
+   projects = [
     {
       name: 'Tonic',
       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -71,9 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       linksource: '#',
     },
   ];
-  
   const body = document.querySelector('body');
-  projects.remove;
   const gridsWork = document.createElement('grids-works');
   body.appendChild(gridsWork);
   gridsWork.innerHTML = `
