@@ -19,58 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.navbar-links').classList.remove('navbar-links-active');
     document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
   });
-  let projects = [
-    {
-      name: 'Tonic',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      detaileddescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      featuredimage: 'images/files/Frame 2.png',
-      featuredimagemobile: 'images/files/Snapshoot.png',
-      featuredimagedesktop: 'images/Snapshoot-Desktop1.png',
-      featuredimagepopup: 'images/files/Snapshoot popuo desktop 1.png',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'bootstrap'],
-      linklive: '#',
-      linksource: '#',
-    },
-    {
-      name: 'Multi Post Stories',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      detaileddescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      featuredimage: 'images/files/Frame 2.png',
-      featuredimagemobile: 'images/files/Snapshoot2.png',
-      featuredimagedesktop: 'images/files/Snapshoot2.png',
-      featuredimagepopup: 'images/files/Snapshoot popuo desktop 1.png',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'bootstrap'],
-      linklive: '#',
-      linksource: '#',
-    },
-    {
-      name: 'Tonic',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      ddescription1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> <br> <br> Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-      featuredimage: 'images/files/Frame 2.png',
-      featuredimagemobile: 'images/files/Snapshoot3.png',
-      featuredimagedesktop: './images/Snapshoot-Desktop1.png',
-      featuredimagepopup: 'images/files/Snapshoot popuo desktop 1.png',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'bootstrap'],
-      linklive: '#',
-      linksource: '#',
-    },
-    {
-      name: 'Multi Post Stories',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-      description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> <br> <br> Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-      featuredimage: 'images/files/Frame 2.png',
-      featuredimagemobile: 'images/files/Snapshoot4.png',
-      featuredimagedesktop: 'images/Snapshoot-Desktop1.png',
-      featuredimagepopup: 'images/files/Snapshoot popuo desktop 1.png',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'bootstrap'],
-      linklive: '#',
-      linksource: '#',
-    },
-  ];
   const body = document.querySelector('body');
   const gridsWork = document.createElement('grids-works');
   body.appendChild(gridsWork);
@@ -173,7 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
            <div class="live-links">
                <ul class="live-links">
                    <li><button class="see-project live-link1">See live</button></li>
-                   <li><button  class="see-project live-link2">See source</button></li></ul></div></div></div>
+                   <li><button  class="see-project live-link2">See source</button></li></ul></div></div>
+     </div>
      <div class="overlay"></div></a><li>
           <ul class="container2">
               <li>
@@ -215,8 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
                <ul class="live-links">
                    <li><button class="see-project live-link1">See live</button></li>
                    <li><button  class="see-project live-link2">See source</button></li></ul></div></div></div><div class="overlay"></div></a>`;
-                   projects = document.getElementById('cards');
-                   element.style.display = 'none';
   document.querySelector('.see-project1').addEventListener('click', () => {
     document.querySelector('.popup').classList.remove('popup-inactive');
     document.querySelector('.popup').classList.add('popup');
