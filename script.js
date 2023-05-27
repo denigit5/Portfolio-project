@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.navbar-links').classList.remove('navbar-links-active');
     document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
   });
-   projects = [
+  let projects = [
     {
       name: 'Tonic',
       description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -215,6 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
                <ul class="live-links">
                    <li><button class="see-project live-link1">See live</button></li>
                    <li><button  class="see-project live-link2">See source</button></li></ul></div></div></div><div class="overlay"></div></a>`;
+                   projects = document.getElementById('cards');
+                   element.style.display = 'none';
   document.querySelector('.see-project1').addEventListener('click', () => {
     document.querySelector('.popup').classList.remove('popup-inactive');
     document.querySelector('.popup').classList.add('popup');
