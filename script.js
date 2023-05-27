@@ -71,7 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
       linksource: '#',
     },
   ];
+  
   const body = document.querySelector('body');
+  projects.remove;
   const gridsWork = document.createElement('grids-works');
   body.appendChild(gridsWork);
   gridsWork.innerHTML = `
