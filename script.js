@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.navbar-links').classList.remove('navbar-links-active');
     document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
   });
+
   /*-------*/
   const name = document.getElementById('name');
   const email = document.getElementById('email');
@@ -35,7 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.text = text.value;
     localStorage.setItem('formData', JSON.stringify(formData));
   });
- /*-------*/
+  window.onload = () => {
+   const inputData = JSON.parse(localStorage.getItem('formData'));
+   if (inputData) {
+     name.value = inputData.name; 
+     email.value = inputData.email;
+     text.value = inputData.text;
+    }
+ };
+ /*---Form validation----*/
  const form = document.querySelector('#form');
   form.addEventListener('submit', (event) => {
     const emailInput = document.querySelector('#email').value;
