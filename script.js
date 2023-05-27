@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
  };
  /*---Form validation----*/
- const form = document.querySelector('#form');
+  document.querySelector('#form');
   const body = document.querySelector('body');
   const gridsWork = document.createElement('grids-works');
   body.appendChild(gridsWork);
