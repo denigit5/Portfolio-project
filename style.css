@@ -364,7 +364,7 @@ body {
   margin-top: -6rem;
   align-items: center;
   background-color: white;
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 .popup-inactive {
@@ -777,6 +777,7 @@ button {
   font-size: 17px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   color: rgba(96, 112, 255, 1);
+  opacity: 0.9;
 }
 
 button:hover {
