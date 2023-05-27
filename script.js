@@ -19,26 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.navbar-links').classList.remove('navbar-links-active');
     document.querySelector('.navbar-links').classList.add('navbar-links-inactive');
   });
-
-  window.addEventListener('beforeunload', () => {
-    const data = {
-      name: '',
-      email: '',
-      text: '',
-    };
-
-    if ((document.querySelector('#name').value) || document.querySelector('#name').value === '') {
-      data.name = document.querySelector('#name').value;
-    }
-    if ((document.querySelector('#email').value) || document.querySelector('#email').value === '') {
-      data.email = document.querySelector('#email').value;
-    }
-
-    JSON.stringify(data);
-    localStorage.setItem('data', JSON.stringify(data));
+  /*-------*/
+  const name = document.getElementById('name');
+  const email = document.getElementById('email');
+  const text = document.getElementById('text');
+  const formfield = document.getElementById('form');
+  const formData = {
+    name: '',
+    email: '',
+    text: ''
+  };
+  formfield.addEventListener('submit', () => {
+    formData.name = name.value;
+    formData.email = email.value;
+    formData.text = text.value;
+    localStorage.setItem('formData', JSON.stringify(formData));
   });
-
-  const form = document.querySelector('#form');
+ /*-------*/
+ const form = document.querySelector('#form');
   form.addEventListener('submit', (event) => {
     const emailInput = document.querySelector('#email').value;
     const SubmitEmail = emailInput.toLowerCase();
