@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   window.onload = () => {
     const inputData = JSON.parse(localStorage.getItem('formData'));
-    if(inputData) {
-      name.value = inputData.name; 
-      email.value = inputData.email;
-      text.value = inputData.text;
+    if (inputData) {
+     name.value = inputData.name; 
+     email.value = inputData.email;
+     text.value = inputData.text;
     }
   };
   document.querySelector('#form');
