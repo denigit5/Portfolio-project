@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   window.onload = () => {
     const inputData = JSON.parse(localStorage.getItem('formData'));
-    if (inputData) {
+    if(inputData) {
       name.value = inputData.name; 
       email.value = inputData.email;
       text.value = inputData.text;
