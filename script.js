@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul class="live-links">
                     <li><button class="see-project live-link1">See live</button></li>
                     <li><button  class="see-project live-link2">See source</button></li>  </ul></div></div></div><div class="overlay"></div></a></li>
-         <li><ul class="container2"><li>
+                    <li><ul class="container2"><li>
                       <div class="card-works1"><img src="images/files/Snapshoot2.png" alt="Loading"></div>
                       <div class="card-works2-1"><img src="images/files/Snapshoot desktop2.jpg" alt=""></div></li>
                   <li class ="firstphas">
