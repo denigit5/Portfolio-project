@@ -66,7 +66,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: https://denigit5.github.io/Portfolio-project/
+Clone this repository to your desired folder: 
 
 
 
@@ -85,7 +85,7 @@ To run tests, run the following command:
 ### Deployment
 
 - This project is already deployed with github pages.
-- Evaluated environment url: https://denigit5.github.io/Mobile-portfolio-project/
+- Evaluated environment url: https://denigit5.github.io/Portfolio-project/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
